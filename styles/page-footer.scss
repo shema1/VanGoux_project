@@ -1,0 +1,46 @@
+.page-footer {
+    background: #FBFBFB;
+    margin: 61px 0 90px;
+}
+
+.logo__text_footer {
+    width: 200px;
+    background: rgba(25, 104, 252, 0.05);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 55px;
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+}
+
+.logo_footer {
+    margin-right: 70px;
+}
+
+.footer__links {
+    display: flex;
+    height: 50px;
+    width: 100px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.social {
+    align-self: baseline;
+    margin-right: 28px;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+    position: relative;
+}
+
+.footer__icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

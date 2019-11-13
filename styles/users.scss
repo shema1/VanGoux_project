@@ -1,0 +1,31 @@
+.users {
+    padding-top: 125px;
+}
+
+.users-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.user {
+    width: 250px;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.user__text {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #11223F;
+}
+
+.user__title {
+    text-transform: uppercase;
+    color: #1967FA;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+}

@@ -1,0 +1,29 @@
+.features {
+    padding-top: 120px;
+}
+
+.feature {
+    position: relative;
+    margin-top: 60px;
+}
+
+.feature__info {
+    display: flex;
+    align-items: center;
+    background-color: #F3F7FF;
+    ;
+}
+
+.feature__img {
+    width: 120px;
+    height: 120px;
+}
+
+.feature__title {
+    padding: 20px;
+}
+
+.feature__text {
+    padding: 30px 40px;
+    background-color: #fff;
+}

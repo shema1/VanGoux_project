@@ -1,0 +1,48 @@
+.wokflow {
+    padding-top: 120px;
+}
+
+.wokflow-box {
+    position: relative;
+}
+
+.workflow-step {
+    padding: 40px;
+    background-color: #fff;
+    position: relative;
+}
+
+.boredr-line {
+    display: block;
+    border-right: 2px dashed #1968FC;
+    height: 40px;
+    width: 60px;
+}
+
+.workflow-step__top-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.workflow-step__number {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.workflow-step__title {
+    color: #1967FA;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.workflow-step__img {
+    height: 36px;
+    width: 40px;
+}
+
+// .workflow-step__decoration {
+//     position: absolute;
+//     bottom: -5;
+//     right: -5;
+// }
