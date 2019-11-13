@@ -40,10 +40,11 @@
     }
     &__text {
         display: block;
-        font-weight: 600;
+        font-weight: 300;
         font-size: 20px;
         line-height: 50px;
         color: #1968FC;
         margin-left: 10px;
+        text-decoration: none;
     }
 }

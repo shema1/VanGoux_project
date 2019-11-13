@@ -40,15 +40,15 @@
 }
 
 .headline__img {
-    margin-top: 80px;
     width: 100%;
 }
 
 .img-block {
-    margin: 0 20px;
+    margin: 80px auto 0 auto;
     @include for-large-up {
+        margin: 0;
         position: absolute;
-        bottom: -250px;
+        top: 50px;
         right: 0;
     }
 }
