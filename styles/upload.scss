@@ -1,9 +1,13 @@
 .upload {
-    background-image: url(img/PleaseVisitDesktopSiteSectionBackground.png);
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/PleaseVisitDesktopSiteSectionBackground.png);
     height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -70px;
+    @include for-large-up {
+        display: none;
+    }
 }
 
 .upload__title {

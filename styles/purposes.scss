@@ -2,11 +2,22 @@
     padding: 120px 0 60px;
 }
 
+.purposes-list {
+    @include for-large-up {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
 .purpose {
     display: flex;
     align-items: center;
     background-color: #fff;
     margin-top: 40px;
+    @include for-large-up {
+        width: 540px;
+    }
 }
 
 .purpose__title {

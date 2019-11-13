@@ -1,9 +1,12 @@
 .headline {
     position: relative;
+    padding-top: 80px;
+    @include for-large-up {
+        padding-top: 150px;
+    }
 }
 
 .headline-info {
-    margin-top: 80px;
     display: flex;
     flex-direction: column;
 }
@@ -13,16 +16,21 @@
     font-size: 40px;
     line-height: 60px;
     letter-spacing: 1px;
+    @include for-large-up {
+        width: 600px;
+    }
 }
 
 .headline__description {
     font-size: 20px;
     line-height: 40px;
-    /* or 200% */
     display: flex;
     align-items: center;
     color: #11223F;
     margin-top: 20px;
+    @include for-large-up {
+        width: 600px;
+    }
 }
 
 .headline__upload-btn {
@@ -31,10 +39,15 @@
 }
 
 .headline__img {
+    margin-top: 80px;
     width: 100%;
-    // margin: 80px 20px 0 20px // height: 10px;
 }
 
-.test {
+.img-block {
     margin: 0 20px;
+    @include for-large-up {
+        position: absolute;
+        bottom: -250px;
+        right: 0;
+    }
 }

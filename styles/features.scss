@@ -2,11 +2,42 @@
     padding-top: 120px;
 }
 
+.feature__list {
+    margin-top: 40px;
+    @include for-large-up {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 48px;
+    }
+}
+
 .feature {
     position: relative;
     margin-top: 60px;
+    @include for-large-up {
+        width: 320px;
+        height: 290px;
+        margin-top: 0;
+    }
 }
 
+.feature__second {
+    @include for-large-up {
+        margin-top: 88px;
+    }
+}
+
+.feature__third {
+    @include for-large-up {
+        margin-top: 128px;
+    }
+}
+
+// .feature__last {
+//     @include for-large-up {
+//         margin-top: 80px;
+//     }
+// }
 .feature__info {
     display: flex;
     align-items: center;
@@ -24,6 +55,8 @@
 }
 
 .feature__text {
-    padding: 30px 40px;
+    padding: 40px;
     background-color: #fff;
+    font-size: 16px;
+    line-height: 30px;
 }

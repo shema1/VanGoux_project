@@ -1,6 +1,10 @@
 .consultation {
     padding: 60px 0;
     background-color: #1968FC;
+    position: relative;
+    @include for-large-up {
+        padding: 80px 0;
+    }
 }
 
 .consultation__title {
@@ -16,6 +20,11 @@
     font-size: 20px;
     line-height: 40px;
     margin-top: 36px;
+    @include for-large-up {
+        margin-top: 48px;
+        width: 625px;
+        height: 80px;
+    }
 }
 
 .consultation-btn {
@@ -23,4 +32,14 @@
     color: #1968FC;
     width: 300px;
     margin-top: 40px;
+}
+
+.consultation__img {
+    display: none;
+    @include for-large-up {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 0;
+    }
 }

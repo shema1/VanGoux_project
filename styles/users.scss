@@ -13,6 +13,10 @@
     padding: 20px;
     background-color: #fff;
     margin-top: 20px;
+    @include for-large-up {
+        width: 360px;
+        margin-top: 38px;
+    }
 }
 
 .user__text {

@@ -4,12 +4,30 @@
 
 .wokflow-box {
     position: relative;
+    margin-top: 48px;
+    @include for-large-up {
+        margin-top: 38px;
+        display: flex;
+    }
 }
 
 .workflow-step {
     padding: 40px;
     background-color: #fff;
     position: relative;
+    height: 220px;
+}
+
+.workflow-step__second {
+    @include for-large-up {
+        margin-top: 40px;
+    }
+}
+
+.workflow-step__third {
+    @include for-large-up {
+        margin-top: 80px;
+    }
 }
 
 .boredr-line {
@@ -17,6 +35,22 @@
     border-right: 2px dashed #1968FC;
     height: 40px;
     width: 60px;
+    @include for-large-up {
+        border-right: none;
+        border-bottom: 2px dashed #1968FC;
+    }
+}
+
+.boredr-line__first {
+    @include for-large-up {
+        height: 100px;
+    }
+}
+
+.boredr-line__second {
+    @include for-large-up {
+        height: 138px;
+    }
 }
 
 .workflow-step__top-block {
@@ -41,8 +75,6 @@
     width: 40px;
 }
 
-// .workflow-step__decoration {
-//     position: absolute;
-//     bottom: -5;
-//     right: -5;
-// }
+.workflow-step__text {
+    margin-top: 20px;
+}
