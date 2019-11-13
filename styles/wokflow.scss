@@ -43,13 +43,13 @@
 
 .boredr-line__first {
     @include for-large-up {
-        height: 100px;
+        height: 105px;
     }
 }
 
 .boredr-line__second {
     @include for-large-up {
-        height: 138px;
+        height: 145px;
     }
 }
 

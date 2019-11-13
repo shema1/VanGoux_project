@@ -33,16 +33,10 @@
     }
 }
 
-// .feature__last {
-//     @include for-large-up {
-//         margin-top: 80px;
-//     }
-// }
 .feature__info {
     display: flex;
     align-items: center;
-    background-color: #F3F7FF;
-    ;
+    background-color: #fff;
 }
 
 .feature__img {

@@ -14,6 +14,8 @@ body {
 }
 @media screen and (min-width: 1150px) {
   body {
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
   }
 }
@@ -64,12 +66,19 @@ p {
   text-transform: uppercase;
   font-size: 30px;
   line-height: 60px;
+  font-weight: normal;
 }
 
 .line {
   border: 1px solid #1968FC;
   height: 2px;
   width: 80px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 1150px) {
+  .line {
+    margin-left: -40px;
+  }
 }
 
 .point__decoration {
@@ -178,6 +187,7 @@ p {
   font-weight: 600;
   font-size: 40px;
   line-height: 60px;
+  font-weight: 700;
   letter-spacing: 1px;
 }
 @media screen and (min-width: 1150px) {
@@ -361,13 +371,13 @@ p {
 
 @media screen and (min-width: 1150px) {
   .boredr-line__first {
-    height: 100px;
+    height: 105px;
   }
 }
 
 @media screen and (min-width: 1150px) {
   .boredr-line__second {
-    height: 138px;
+    height: 145px;
   }
 }
 
@@ -439,7 +449,7 @@ p {
 .feature__info {
   display: flex;
   align-items: center;
-  background-color: #F3F7FF;
+  background-color: #fff;
 }
 
 .feature__img {
@@ -550,7 +560,7 @@ p {
   color: #fff;
   font-size: 20px;
   line-height: 40px;
-  margin-top: 36px;
+  margin-top: 38px;
 }
 @media screen and (min-width: 1150px) {
   .consultation__description {
@@ -604,6 +614,13 @@ p {
 .story-card {
   display: flex;
   margin-top: 38px;
+  height: 299px;
+}
+
+.story-card__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
 }
 
 .story-card__img {
@@ -666,8 +683,14 @@ p {
 
 .footer__icon {
   position: absolute;
+  width: 60px;
+  height: 55px;
   bottom: 0;
   right: 0;
+}
+
+.story-card__link {
+  color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -12,6 +12,8 @@ body {
     width: 100%;
     overflow-x: hidden;
     @include for-large-up {
+        background-size: cover;
+        background-repeat: no-repeat;
         background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
     }
 }
@@ -60,12 +62,17 @@ p {
     text-transform: uppercase;
     font-size: 30px;
     line-height: 60px;
+    font-weight: normal;
 }
 
 .line {
     border: 1px solid #1968FC;
     height: 2px;
     width: 80px;
+    margin-top: 10px;
+    @include for-large-up {
+        margin-left: -40px;
+    }
 }
 
 .point__decoration {
