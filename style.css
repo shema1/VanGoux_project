@@ -189,6 +189,7 @@ p {
 }
 
 .headline__title {
+  width: 480px;
   font-weight: 600;
   font-size: 40px;
   line-height: 60px;
@@ -208,6 +209,7 @@ p {
   align-items: center;
   color: #11223F;
   margin-top: 20px;
+  width: 480px;
 }
 @media screen and (min-width: 1150px) {
   .headline__description {
@@ -556,6 +558,7 @@ p {
 .consultation__title {
   color: #fff;
   width: fit-content;
+  font-weight: bold;
 }
 
 .line__fix {

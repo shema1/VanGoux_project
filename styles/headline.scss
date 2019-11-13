@@ -12,6 +12,7 @@
 }
 
 .headline__title {
+    width: 480px;
     font-weight: 600;
     font-size: 40px;
     line-height: 60px;
@@ -29,6 +30,7 @@
     align-items: center;
     color: #11223F;
     margin-top: 20px;
+    width: 480px;
     @include for-large-up {
         width: 600px;
     }
