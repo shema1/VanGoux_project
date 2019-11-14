@@ -4,10 +4,11 @@
 
 .topNavMenu {
     display: flex;
+    justify-content: space-between;
 }
 
 .page-header__navigation {
-    margin-left: 220px;
+    margin-left: auto
 }
 
 .menu__list {
@@ -28,7 +29,6 @@
     @include for-large-up {
         display: block;
         width: 180px;
-        margin-left: auto;
     }
 }
 

@@ -12,9 +12,7 @@ body {
     width: 100%;
     overflow-x: hidden;
     @include for-large-up {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
+        background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png) center top no-repeat;
     }
 }
 

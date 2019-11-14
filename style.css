@@ -14,9 +14,7 @@ body {
 }
 @media screen and (min-width: 1150px) {
   body {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
+    background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png) center top no-repeat;
   }
 }
 
@@ -126,10 +124,11 @@ p {
 
 .topNavMenu {
   display: flex;
+  justify-content: space-between;
 }
 
 .page-header__navigation {
-  margin-left: 220px;
+  margin-left: auto;
 }
 
 .menu__list {
@@ -152,7 +151,6 @@ p {
   .page-header__btn {
     display: block;
     width: 180px;
-    margin-left: auto;
   }
 }
 
@@ -233,7 +231,7 @@ p {
   .img-block {
     margin: 0;
     position: absolute;
-    top: 190px;
+    top: 50px;
     right: 0;
   }
 }
