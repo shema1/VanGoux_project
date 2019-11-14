@@ -65,9 +65,6 @@ p {
   }
 }
 
-.container-fix {
-  margin: 0 80px;
-}
 @media screen and (min-width: 1150px) {
   .container-fix {
     width: 1120px;
@@ -195,6 +192,12 @@ p {
 .headline-info {
   display: flex;
   flex-direction: column;
+  margin-left: 80px;
+}
+@media screen and (min-width: 1150px) {
+  .headline-info {
+    margin: 0;
+  }
 }
 
 .headline__title {

@@ -1,6 +1,5 @@
 .headline {
     position: relative;
-    margin: 0 80px;
     margin-top: 80px;
     @include for-large-up {
         margin-top: 150px;
@@ -10,6 +9,10 @@
 .headline-info {
     display: flex;
     flex-direction: column;
+    margin-left: 80px;
+    @include for-large-up {
+        margin: 0;
+    }
 }
 
 .headline__title {
