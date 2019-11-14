@@ -46,11 +46,11 @@
 }
 
 .img-block {
-    margin: 80px auto 0 auto;
+    margin: 80px 20px 0 20px;
     @include for-large-up {
         margin: 0;
         position: absolute;
-        top: 50px;
+        top: 190px;
         right: 0;
     }
 }
