@@ -121,7 +121,7 @@ p {
 }
 
 .page-header {
-  padding-top: 30px;
+  margin-top: 30px;
 }
 
 .topNavMenu {
@@ -179,7 +179,7 @@ p {
 }
 @media screen and (min-width: 1150px) {
   .headline {
-    padding-top: 150px;
+    margin-top: 150px;
   }
 }
 
@@ -260,7 +260,7 @@ p {
 
 @media screen and (min-width: 1150px) {
   .reviews {
-    padding-top: 160px;
+    margin-top: 160px;
   }
 }
 
@@ -431,7 +431,7 @@ p {
 
 .feature {
   position: relative;
-  margin-top: 60px;
+  margin-top: 48px;
 }
 @media screen and (min-width: 1150px) {
   .feature {
@@ -466,6 +466,11 @@ p {
 
 .feature__title {
   padding: 20px;
+}
+@media screen and (min-width: 1150px) {
+  .feature__title {
+    width: 160px;
+  }
 }
 
 .feature__text {
@@ -530,7 +535,7 @@ p {
   display: flex;
   align-items: center;
   background-color: #fff;
-  margin-top: 40px;
+  margin-top: 38px;
 }
 @media screen and (min-width: 1150px) {
   .purpose {

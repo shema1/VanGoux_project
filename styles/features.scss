@@ -13,7 +13,7 @@
 
 .feature {
     position: relative;
-    margin-top: 60px;
+    margin-top: 48px;
     @include for-large-up {
         width: 320px;
         height: 290px;
@@ -46,6 +46,9 @@
 
 .feature__title {
     padding: 20px;
+    @include for-large-up {
+        width: 160px;
+    }
 }
 
 .feature__text {
