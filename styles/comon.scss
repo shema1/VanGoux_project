@@ -48,8 +48,13 @@ p {
     color: #fff;
 }
 
+.rel {
+    position: relative;
+}
+
 .container {
     margin: 0 60px;
+    position: relative;
     @include for-large-up {
         width: 1120px;
         margin: 0 auto;

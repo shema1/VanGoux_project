@@ -50,8 +50,13 @@ p {
   color: #fff;
 }
 
+.rel {
+  position: relative;
+}
+
 .container {
   margin: 0 60px;
+  position: relative;
 }
 @media screen and (min-width: 1150px) {
   .container {
