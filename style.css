@@ -175,7 +175,7 @@ p {
 
 .headline {
   position: relative;
-  padding-top: 80px;
+  margin-top: 80px;
 }
 @media screen and (min-width: 1150px) {
   .headline {
@@ -415,7 +415,7 @@ p {
 }
 
 .features {
-  padding-top: 120px;
+  margin-top: 120px;
 }
 
 .feature__list {
@@ -476,7 +476,7 @@ p {
 }
 
 .users {
-  padding-top: 125px;
+  margin-top: 120px;
 }
 
 .users-list {
@@ -514,7 +514,8 @@ p {
 }
 
 .purposes {
-  padding: 120px 0 60px;
+  margin-top: 120px;
+  margin-bottom: 60px;
 }
 
 @media screen and (min-width: 1150px) {
@@ -602,6 +603,9 @@ p {
   }
 }
 
+.stories {
+  margin-top: 60px;
+}
 @media screen and (min-width: 1150px) {
   .stories {
     margin-top: 120px;
