@@ -68,6 +68,12 @@ p {
 .container-fix {
   margin: 0 80px;
 }
+@media screen and (min-width: 1150px) {
+  .container-fix {
+    width: 1120px;
+    margin: 0 auto;
+  }
+}
 
 .title {
   text-transform: uppercase;

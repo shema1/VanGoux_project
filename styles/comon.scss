@@ -63,6 +63,10 @@ p {
 
 .container-fix {
     margin: 0 80px;
+    @include for-large-up {
+        width: 1120px;
+        margin: 0 auto;
+    }
 }
 
 .title {
