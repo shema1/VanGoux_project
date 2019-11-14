@@ -218,6 +218,21 @@ p {
 .headline__upload-btn {
   width: 300px;
   margin-top: 40px;
+  display: none;
+}
+@media screen and (min-width: 1150px) {
+  .headline__upload-btn {
+    display: block;
+  }
+}
+
+.headline__upload-btn_sm {
+  display: block;
+}
+@media screen and (min-width: 1150px) {
+  .headline__upload-btn_sm {
+    display: none;
+  }
 }
 
 .headline__img {

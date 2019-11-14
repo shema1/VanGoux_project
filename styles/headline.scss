@@ -39,6 +39,17 @@
 .headline__upload-btn {
     width: 300px;
     margin-top: 40px;
+    display: none;
+    @include for-large-up {
+        display: block;
+    }
+}
+
+.headline__upload-btn_sm {
+    display: block;
+    @include for-large-up {
+        display: none;
+    }
 }
 
 .headline__img {
