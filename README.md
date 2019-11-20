@@ -1,6 +1,6 @@
 # VanGoux_project
 This is landing page layout - VanGoux.
-Supports desktop, tablet and mobile versions
+Supports only desktop versions
 
 # Preview:
 https://shema1.github.io/VanGoux_project/
